@@ -10,10 +10,13 @@ def linear_search(arr, target):
 # Tests
 array = [10, 23, 45, 70, 11, 15]
 target = 70
-print(f"Index of {target}: {linear_search(array, target)}")  # Output: 3
+print(f"Index of {target}: {linear_search(array, target)}")  
+# 3
 
 target = 11
-print(f"Index of {target}: {linear_search(array, target)}")  # Output: 4
+print(f"Index of {target}: {linear_search(array, target)}")  
+# 4
 
 target = 99
-print(f"Index of {target}: {linear_search(array, target)}")  # Output: -1
+print(f"Index of {target}: {linear_search(array, target)}")  
+# -1
